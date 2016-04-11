@@ -1,0 +1,70 @@
+﻿/*************************************************************
+ * Command:Start
+ * Control:Jigoushizhi.Default
+ * Style:Jigoushizhi_Default
+ * Desc::Jigoushizhi.Default部件的样式
+ * Quot:
+*************************************************************/
+.Jigoushizhi_Default{
+	width:235px;
+	margin-top:10px;
+}
+.Jigoushizhi_Default .area {
+    width:235px;
+    border:1px solid #b31f0b;
+}
+.Jigoushizhi_Default .area h3 {
+    height:25px;
+    line-height:25px;
+    background:url(../images/background2.gif) no-repeat;
+    font-size:14px;
+    color:#fff;
+    position:relative; text-indent:20px;
+}
+/*******标题自适应***********/
+.Jigoushizhi_Default .area ul {
+    padding:5px;
+	list-style:none;
+	height:auto;
+}
+.Jigoushizhi_Default .area li {
+    height:25px;
+    line-height:25px;
+    color:#999999;
+	float:left;
+	width:100px;
+	text-align:center;
+}
+.Jigoushizhi_Default .area li a {
+    color:#000;
+	font-size:13px;
+	text-decoration:none;
+}
+.Jigoushizhi_Default .area li a:hover {
+    color:#F00;
+	font-size:13px;
+	text-decoration:none;
+}
+.Jigoushizhi_Default .area li span.datetime{
+position:absolute;
+    top:0px;
+    right:5px;
+}
+.Jigoushizhi_Default .underline_area {
+    height:5px;
+    line-height:5px;
+    font-size:0px;
+    background:url(../images/back.gif) no-repeat -141px -79px;
+}
+.Jigoushizhi_Default .area_ad img {
+    border:1px solid #cfd8df;
+}
+.clear{clear:both;}
+ 
+/*************************************************************
+ * Command:End
+ * Control:Jigoushizhi.Default
+ * Style:Jigoushizhi_Default
+ * Desc::Jigoushizhi.Default部件的样式
+ * Quot:
+*************************************************************/

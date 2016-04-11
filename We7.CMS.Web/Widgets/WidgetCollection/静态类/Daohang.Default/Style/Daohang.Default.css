@@ -1,0 +1,77 @@
+﻿/*************************************************************
+ * Command:Start
+ * Control:Daohang.Default
+ * Style:Daohang_Default
+ * Desc::Daohang.Default部件的样式
+ * Quot:
+*************************************************************/
+.Daohang_Default{
+    width:232px;
+    margin-top:10px;
+}
+.Daohang_Default .area {
+    width:232px;
+    margin:0px;
+    padding:0px;
+}
+.Daohang_Default .area h3 {
+    width:232px;
+    height:50px;
+}
+/*******标题自适应***********/
+.Daohang_Default .area ul {
+    width:220px;
+    padding:5px;
+    list-style:none;
+    height:auto;
+    border:1px solid #dfdfdf;
+    border-top:none;
+}
+.Daohang_Default .area li {
+    width:72px;
+    height:25px;
+    line-height:25px;
+    color:#999999;
+    float:left;
+    text-align:center;
+}
+.Daohang_Default .area li a {
+    color:#000;
+    font-size:13px;
+    text-decoration:none;
+}
+.Daohang_Default .area li a:hover {
+    color:#F00;
+    font-size:13px;
+    text-decoration:none;
+}
+.Daohang_Default .area li span.datetime{
+position:absolute;
+    top:0px;
+    right:5px;
+}
+.Daohang_Default .underline_area {
+    height:5px;
+    line-height:5px;
+    font-size:0px;
+    background:url(../images/back.gif) no-repeat -141px -79px;
+}
+.Daohang_Default .area_ad img {
+    border:1px solid #cfd8df;
+}
+.clear{clear:both;}
+ 
+
+
+
+
+
+
+
+/*************************************************************
+ * Command:End
+ * Control:Daohang.Default
+ * Style:Daohang_Default
+ * Desc::Daohang.Default部件的样式
+ * Quot:
+*************************************************************/

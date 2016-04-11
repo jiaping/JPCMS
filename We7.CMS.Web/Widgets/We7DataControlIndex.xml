@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Controls>
+  <control name="投票控件" group="插件控件" path="" directory="Survey" desc="投票调查类控件">
+    <item control="Survey.Common" name="投票" type="" version="1.0" created="2009-12-03" desc="投票" demoUrl="Admin/images/s.jpg" fileName="/Plugins/SurveyPlugin/Control/Survey/Page/Survey.Common.ascx" />
+    <item control="Survey.View" name="投票显示" type="" version="1.0" created="2009-12-03" desc="投票显示" demoUrl="Admin/images/s.jpg" fileName="/Plugins/SurveyPlugin/Control/Survey/Page/Survey.View.ascx" />
+  </control>
+</Controls>

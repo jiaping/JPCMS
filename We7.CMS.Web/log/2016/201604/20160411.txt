@@ -1,0 +1,481 @@
+
+ 
+记录时间：2016-04-11 10:45:17,758 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:45:17,758 
+线程ID:[5] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:45:17,870 
+线程ID:[5] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/foot/foot.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:45:17,878 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/foot/foot.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:45:17,966 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：We7.CMS.Web.Global property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.IO.IOException: 文件“D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\_skins\we7\channel.index.error.ascx”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   在 We7.Framework.Util.FileHelper.WriteFileEx(String filePath, String content, Boolean append) 位置 D:\develop\web\We7CMS_Codeplex\We7.Framework\Util\FileHelper.cs:行号 131
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 649
+   在 We7.CMS.FrontBasePage.CheckControlByBuilder() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 580
+   在 We7.CMS.Web.ShowChannel.Initialize() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\Go\ShowChannel.aspx.cs:行号 87
+   在 We7.CMS.FrontBasePage.OnLoad(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 251
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.go_showchannel_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\jp\AppData\Local\Temp\Temporary ASP.NET Files\vs\1c986c50\16797d73\App_Web_okqzx21n.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 
+记录时间：2016-04-11 10:45:19,443 
+线程ID:[5] 
+日志级别：  ERROR 
+出错类：We7.CMS.Web.Global property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   在 System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   在 System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   在 System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   在 System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 651
+   在 We7.CMS.FrontBasePage.CheckControlByBuilder() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 580
+   在 We7.CMS.Web.ShowChannel.Initialize() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\Go\ShowChannel.aspx.cs:行号 87
+   在 We7.CMS.FrontBasePage.OnLoad(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 251
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.go_showchannel_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\jp\AppData\Local\Temp\Temporary ASP.NET Files\vs\1c986c50\16797d73\App_Web_okqzx21n.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 
+记录时间：2016-04-11 10:45:21,394 
+线程ID:[5] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:45:21,421 
+线程ID:[5] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/foot/foot.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:45:22,897 
+线程ID:[5] 
+日志级别：  ERROR 
+出错类：We7.CMS.Web.Global property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   在 System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   在 System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   在 System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   在 System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 651
+   在 We7.CMS.FrontBasePage.CheckControlByBuilder() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 580
+   在 We7.CMS.Web.ShowChannel.Initialize() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\Go\ShowChannel.aspx.cs:行号 87
+   在 We7.CMS.FrontBasePage.OnLoad(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 251
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.go_showchannel_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\jp\AppData\Local\Temp\Temporary ASP.NET Files\vs\1c986c50\16797d73\App_Web_okqzx21n.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 
+记录时间：2016-04-11 10:50:25,792 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:50:25,833 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/foot/foot.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:50:27,320 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：We7.CMS.Web.Global property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   在 System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   在 System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   在 System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   在 System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 645
+   在 We7.CMS.FrontBasePage.CheckControlByBuilder() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 580
+   在 We7.CMS.Web.ShowChannel.Initialize() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\Go\ShowChannel.aspx.cs:行号 87
+   在 We7.CMS.FrontBasePage.OnLoad(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 251
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.go_showchannel_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\jp\AppData\Local\Temp\Temporary ASP.NET Files\vs\1c986c50\16797d73\App_Web_okqzx21n.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 
+记录时间：2016-04-11 10:50:36,035 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:50:36,054 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：ASP.go_showchannel_aspx property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/foot/foot.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 605
+
+ 
+记录时间：2016-04-11 10:50:37,568 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：We7.CMS.Web.Global property: [(null)] - 
+错误描述：Error
+ 
+System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpParseException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。 ---> System.Web.HttpException (0x80004005): 文件“/Widgets/WidgetCollection/静态类/banner/banner.ascx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   在 System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   在 System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   在 System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   在 System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   在 System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   在 We7.CMS.FrontBasePage.InstanceControl(Control ctl, String templateHtml, Dictionary`2 dic) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 645
+   在 We7.CMS.FrontBasePage.CheckControlByBuilder() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 580
+   在 We7.CMS.Web.ShowChannel.Initialize() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\Go\ShowChannel.aspx.cs:行号 87
+   在 We7.CMS.FrontBasePage.OnLoad(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\FrontBasePage.cs:行号 251
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.go_showchannel_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\jp\AppData\Local\Temp\Temporary ASP.NET Files\vs\1c986c50\16797d73\App_Web_okqzx21n.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 
+记录时间：2016-04-11 10:54:36,619 
+线程ID:[20] 
+日志级别：  ERROR 
+出错类：We7.CMS.BasePage property: [(null)] - 
+错误描述：Error
+ 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 We7.Framework.Util.Utils.Redirect(String url, Boolean endResponse) 位置 D:\develop\web\We7CMS_Codeplex\We7.Framework\Util\Utils.cs:行号 2826
+   在 We7.CMS.BasePage.CheckSignin() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 698
+   在 We7.CMS.BasePage.OnInit(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 614
+
+ 
+记录时间：2016-04-11 12:26:34,173 
+线程ID:[46] 
+日志级别：  ERROR 
+出错类：We7.CMS.BasePage property: [(null)] - 
+错误描述：Error
+ 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 We7.Framework.Util.Utils.Redirect(String url, Boolean endResponse) 位置 D:\develop\web\We7CMS_Codeplex\We7.Framework\Util\Utils.cs:行号 2826
+   在 We7.CMS.BasePage.CheckSignin() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 698
+   在 We7.CMS.BasePage.OnInit(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 614
+
+ 
+记录时间：2016-04-11 12:27:03,638 
+线程ID:[46] 
+日志级别：  ERROR 
+出错类：We7.CMS.BasePage property: [(null)] - 
+错误描述：Error
+ 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 We7.Framework.Util.Utils.Redirect(String url, Boolean endResponse) 位置 D:\develop\web\We7CMS_Codeplex\We7.Framework\Util\Utils.cs:行号 2826
+   在 We7.CMS.BasePage.CheckSignin() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 698
+   在 We7.CMS.BasePage.OnInit(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 614
+
+ 
+记录时间：2016-04-11 12:27:04,351 
+线程ID:[46] 
+日志级别：  ERROR 
+出错类：We7.CMS.BasePage property: [(null)] - 
+错误描述：Error
+ 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 We7.Framework.Util.Utils.Redirect(String url, Boolean endResponse) 位置 D:\develop\web\We7CMS_Codeplex\We7.Framework\Util\Utils.cs:行号 2826
+   在 We7.CMS.BasePage.CheckSignin() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 698
+   在 We7.CMS.BasePage.OnInit(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 614
+
+ 
+记录时间：2016-04-11 13:42:50,718 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：We7.CMS.BasePage property: [(null)] - 
+错误描述：Error
+ 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 We7.Framework.Util.Utils.Redirect(String url, Boolean endResponse) 位置 D:\develop\web\We7CMS_Codeplex\We7.Framework\Util\Utils.cs:行号 2826
+   在 We7.CMS.BasePage.CheckSignin() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 698
+   在 We7.CMS.BasePage.OnInit(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 614
+
+ 
+记录时间：2016-04-11 13:42:50,723 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：We7.CMS.BasePage property: [(null)] - 
+错误描述：Error
+ 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 We7.Framework.Util.Utils.Redirect(String url, Boolean endResponse) 位置 D:\develop\web\We7CMS_Codeplex\We7.Framework\Util\Utils.cs:行号 2826
+   在 We7.CMS.BasePage.CheckSignin() 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 698
+   在 We7.CMS.BasePage.OnInit(EventArgs e) 位置 D:\develop\web\We7CMS_Codeplex\We7.CMS.Utils\BasePage.cs:行号 614

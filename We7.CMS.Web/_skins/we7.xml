@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TempateGroup name="We7" description="" created="2011/6/29 13:58:59" ver="V2.7.5.18296 最终版">
+  <Item name="通用栏目页" template="channel.index.ascx" location="index" c_model="" layout="" tag="" type="channel" description="" created="2011/8/26 10:31:16" updated="2011/8/26 10:31:16" isSub="False" c_modelText="" locationText="通用栏目页" />
+  <Item name="通用内容页" template="channel.detail.ascx" location="detail" c_model="" layout="" tag="" type="channel" description="" created="2011/8/26 11:25:35" updated="2011/8/26 11:25:35" isSub="False" c_modelText="" locationText="通用内容页" />
+  <Item name="通用搜索页" template="channel.search.ascx" location="search" c_model="" layout="" tag="" type="channel" description="" created="2011/8/26 12:00:18" updated="2011/8/26 12:00:18" isSub="False" c_modelText="" locationText="通用搜索页" />
+  <Item name="站点首页" template="site.home.ascx" location="home" c_model="" layout="" tag="" type="site" description="" created="2016/4/10 21:54:10" updated="2016/4/10 21:54:10" isSub="False" c_modelText="" locationText="站点首页" />
+</TempateGroup>

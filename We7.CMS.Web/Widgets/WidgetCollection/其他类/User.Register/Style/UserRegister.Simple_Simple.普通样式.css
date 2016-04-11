@@ -1,0 +1,79 @@
+﻿{WE:STYLE} .table_reg
+{
+	border-bottom: 1px solid #BFF1FF;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px auto;
+	padding: 6px 30px;
+	text-align: left;
+	width: 98%;
+}
+{WE:STYLE} th, {WE:STYLE} td
+{
+	color: #333333;
+	font-family: "宋体" ,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+{WE:STYLE} th
+{
+	font-weight: normal;
+	padding-right: 5px;
+	text-align: right;
+}
+{WE:STYLE} .table_reg caption
+{
+	border-bottom: 1px solid #8DA7C4;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px auto 0;
+	padding: 6px 30px;
+	text-align: left;
+}
+{WE:STYLE} .input_focus,{WE:STYLE} .input_blur
+{
+	border: 1px solid #DCDCDC;
+	height: 18px;
+	line-height: 18px;
+	padding-left: 2px;
+}
+{WE:STYLE} input, {WE:STYLE} textarea, {WE:STYLE} select, {WE:STYLE} button,{WE:STYLE} file
+{
+	font-size: 12px;
+	padding-left: 2px;
+}
+{WE:STYLE} input,{WE:STYLE} select,{WE:STYLE} textarea,{WE:STYLE} .textarea_style
+{
+	border: 1px solid #DCDCDC;
+	font-family: "宋体";
+}
+{WE:STYLE} input,{WE:STYLE} textarea,{WE:STYLE} select,{WE:STYLE} button,{WE:STYLE} file
+{
+	font-size: 12px;
+}
+{WE:STYLE} .button_style
+{
+	border: 1px solid #9CC9E0;
+	color: #077AC7;
+	cursor: pointer;
+	height: 21px;
+	padding: 1px 4px;
+	text-align: center;
+}
+{WE:STYLE} input,{WE:STYLE} textarea,{WE:STYLE} select,{WE:STYLE} button,{WE:STYLE} file
+{
+	font-size: 12px;
+	padding-left: 2px;
+}
+{WE:STYLE} .table_reg td
+{
+	padding: 8px 5px;
+}
+{WE:STYLE} td
+{
+	line-height: 200%;
+	text-align: left;
+}
+{WE:STYLE} td,{WE:STYLE} th
+{
+	font-size: 12px;
+}

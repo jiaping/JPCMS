@@ -1,0 +1,28 @@
+﻿/*************************************************************
+ * Command:Start
+ * Control:AD.Simple
+ * Style:AD_Simple
+ * Desc::
+ * Quot:
+*************************************************************/
+.AD_Simple .ad h3
+{
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #000;
+    padding-left: 28px;
+    font-size: 12px;
+}
+.AD_Simple .ad_content 
+{
+    position: relative;
+}
+
+/*************************************************************
+ * Command:End
+ * Control:AD.Simple
+ * Style:AD_Simple
+ * Desc::
+ * Quot:
+*************************************************************/

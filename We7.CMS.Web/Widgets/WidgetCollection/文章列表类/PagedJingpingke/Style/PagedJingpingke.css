@@ -1,0 +1,132 @@
+﻿/*************************************************************
+ * Command:Start
+ * Control:PagedJingpingke
+ * Style:PagedJingpingke
+ * Desc::
+ * Quot:
+*************************************************************/
+.PagedJingpingke{       
+	width: 708px;
+    border:1px solid #CCC; 
+	margin-left:9px;
+}
+.PagedJingpingke .article_list
+{
+}
+
+.PagedJingpingke .article_list h3{
+    background: url("../images/page_1.jpg") no-repeat;
+    height: 30px;
+    line-height: 30px; color:#F00;
+    font-size:14px;
+    font-weight:bold;
+    padding-left: 28px;
+}
+.PagedJingpingke .article_list h3 span
+{
+    background:url(../images/sidebar.gif) no-repeat left top;
+    display:inline-block;
+    padding-left:30px;
+}
+.PagedJingpingke .article_list h3 em
+{
+    background: url(../images/sidebar.gif) no-repeat right -33px;
+    padding-right: 37px;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+}
+.PagedJingpingke .article_list h3 em a
+{
+    color: #ffff00;
+}
+.PagedJingpingke .article_list h3 em a:hover
+{
+    color: #fff;
+}
+.PagedJingpingke .article_list ul
+{
+    padding:10px;
+}
+.PagedJingpingke .article_list li
+{
+    width:660px;
+    height:30px;
+    line-height:30px;
+    color:#999999;
+    float:left;
+    margin-right:30px;
+    border-bottom:1px dashed #ccc;
+    background:url(../images/daxue_5.jpg) no-repeat 5px 50% ;
+    padding-left:20px;
+	margin:0 auto;
+}
+.PagedJingpingke .article_list li span.datetime
+{
+    float: right;
+    padding-right:5px;
+}
+.PagedJingpingke .article_list li a
+{
+ color:#000;float:left;
+}
+.PagedJingpingke .article_list li a:hover {
+    color:#F00;float:left;
+}
+.PagedJingpingke .underline_left
+{
+    height: 7px;
+    line-height: 7px;
+    font-size: 0px;
+    background: url(../images/back.gif) no-repeat left -269px;
+}
+.PagedJingpingke .clear
+{
+    clear: both;
+}
+.PagedJingpingke .clear:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.PagedJingpingke .page_css, .class_page
+{
+    text-align: center;
+    padding: 5px 0;
+}
+.PagedJingpingke .page_css a, .class_page a
+{
+    display: inline-block;
+    border: 1px solid #a8c1ce;
+    padding: 3px 8px;
+    color: #4a89a9;
+    line-height: 100%;
+}
+.PagedJingpingke .page_css a:hover, .class_page a:hover
+{
+    color: #fff;
+    border: 1px solid #4081A1;
+    background: #62A1DF;
+}
+.PagedJingpingke .page_css b a, .class_page b a
+{
+    color: #fff;
+    border: 1px solid #4081A1;
+    background: #62A1DF;
+}
+.PagedJingpingke .page_line
+{
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+
+/*************************************************************
+ * Command:End
+ * Control:PagedJingpingke
+ * Style:PagedJingpingke
+ * Desc::
+ * Quot:
+*************************************************************/

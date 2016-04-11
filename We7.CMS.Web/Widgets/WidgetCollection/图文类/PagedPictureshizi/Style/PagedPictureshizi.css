@@ -1,0 +1,147 @@
+﻿/*************************************************************
+ * Command:Start
+ * Control:PagedPictureshizi
+ * Style:PagedPictureshizi
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+.PagedPictureshizi{
+        width: 708px;
+    border:1px solid #CCC;
+    margin-left:9px;
+}
+.PagedPictureshizi .article_list
+{
+}
+
+.PagedPictureshizi .article_list h3{
+    background: url("../images/page_1.jpg") no-repeat;
+    height: 30px;
+    line-height: 30px; color:#F00;
+    font-size:14px;
+    font-weight:bold;
+    padding-left: 28px;
+}
+.PagedPictureshizi .article_list ul
+{
+    width:680px;
+    margin:0 auto;
+    padding: 10px 5px 5px 5px;
+}
+.PagedPictureshizi .article_list li
+{
+    width:680px;
+    border-top:2px solid #c40000;
+    margin-bottom:5px;
+}
+.PagedPictureshizi .article_list li span
+{
+    width:177px;
+    height:119px;
+    float:left;
+    margin:10px 20px;
+    background:url(../Images/page_2.jpg) no-repeat left top;
+    padding:8px 0 0 8px;
+}
+.PagedPictureshizi .article_list li h2{
+    width:450px;
+    height:25px;
+    line-height:25px;
+    float: right;
+    text-align:left;
+    color:#F00;
+    font-size:13px;
+    font-weight:bold;
+    margin-top:10px;
+}
+.PagedPictureshizi .article_list li samp{
+    width:450px;
+    height:75px;
+    float:right;
+    margin-top:10px;
+    line-height:28px;
+}
+.PagedPictureshizi .article_list li h1{
+    width:430px;
+    height:20px;
+    float:right;
+    padding-right:20px;
+}
+.PagedPictureshizi .article_list li h1 a{
+    color: #333;
+    font-size:13px;
+    line-height:20px;
+    font-weight:normal;
+    text-decoration:none;
+    text-align:right;
+    float:right;
+}
+.PagedPictureshizi .article_list li h1 a:hover{
+    color: #f00;
+    text-decoration:none;
+    line-height:20px;
+    font-weight:normal;
+    text-align:right;
+    float: right;
+    font-size:13px;
+}
+
+.PagedPictureshizi .underline_left
+{
+    height: 7px;
+    line-height: 7px;
+    font-size: 0px;
+    background:url(../Images/back.gif) no-repeat left -269px;
+}
+.PagedPictureshizi .clear
+{
+    clear: both;
+}
+.PagedPictureshizi .clear:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.PagedPictureshizi .page_css, .class_page
+{
+    text-align: center;
+    padding: 5px 0;
+}
+.PagedPictureshizi .page_css a, .class_page a
+{
+    display: inline-block;
+    border: 1px solid #a8c1ce;
+    padding: 3px 8px;
+    color: #4a89a9;
+    line-height: 100%;
+}
+.PagedPictureshizi .page_css a:hover, .class_page a:hover
+{
+    color: #fff;
+    border: 1px solid #4081A1;
+    background: #62A1DF;
+}
+.PagedPictureshizi .page_css b a, .class_page b a
+{
+    color: #fff;
+    border: 1px solid #4081A1;
+    background: #62A1DF;
+}
+.PagedPictureshizi .page_line
+{
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+
+
+
+/*************************************************************
+ * Command:End
+ * Control:PagedPictureshizi
+ * Style:PagedPictureshizi
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/

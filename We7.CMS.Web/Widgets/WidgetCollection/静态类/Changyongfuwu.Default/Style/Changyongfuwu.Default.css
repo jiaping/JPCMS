@@ -1,0 +1,72 @@
+﻿/*************************************************************
+ * Command:Start
+ * Control:Changyongfuwu.Default
+ * Style:Changyongfuwu_Default
+ * Desc::Changyongfuwu.Default部件的样式
+ * Quot:
+*************************************************************/
+.Changyongfuwu_Default{
+    width:235px;
+    margin-top:10px;
+}
+.Changyongfuwu_Default .area {
+    width:235px;
+    border:1px solid #b31f0b;
+}
+.Changyongfuwu_Default .area h3 {
+	width:215px;
+    height:25px;
+    line-height:25px;
+    background:url(../images/background2.gif) no-repeat;
+    font-size:14px;
+    color:#fff;
+	padding-left:20px;
+}
+/*******标题自适应***********/
+.Changyongfuwu_Default .area ul {
+    padding:5px;
+    list-style:none;
+    height:auto;
+}
+.Changyongfuwu_Default .area li {
+    height:25px;
+    line-height:25px;
+    color:#999;
+    width:200px;
+	padding-left:25px;
+	background:url(../images/daxue_3.jpg) no-repeat 2px 50%;
+}
+.Changyongfuwu_Default .area li a {
+    color:#000;
+    font-size:13px;
+    text-decoration:none;
+}
+.Changyongfuwu_Default .area li a:hover {
+    color:#F00;
+    font-size:13px;
+    text-decoration:none;
+}
+.Changyongfuwu_Default .area li span.datetime{
+position:absolute;
+    top:0px;
+    right:5px;
+}
+.Changyongfuwu_Default .underline_area {
+    height:5px;
+    line-height:5px;
+    font-size:0px;
+    background:url(../images/back.gif) no-repeat -141px -79px;
+}
+.Changyongfuwu_Default .area_ad img {
+    border:1px solid #cfd8df;
+}
+.clear{clear:both;}
+ 
+
+/*************************************************************
+ * Command:End
+ * Control:Changyongfuwu.Default
+ * Style:Changyongfuwu_Default
+ * Desc::Changyongfuwu.Default部件的样式
+ * Quot:
+*************************************************************/

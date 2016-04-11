@@ -1,0 +1,18 @@
+<----------------2016年4月9日 18:36:47------------------->
+Title:
+	执行完毕：
+Content
+	D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\install/SQL\core\create.xml执行完毕！共执行语句38条，成功38，失败0 。
+
+<----------------2016年4月9日 18:36:50------------------->
+Title:
+	执行完毕：
+Content
+	D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\install/SQL\core\update.xml执行完毕！共执行语句474条，成功474，失败0 。
+
+<----------------2016年4月9日 18:36:50------------------->
+Title:
+	执行完毕：
+Content
+	D:\develop\web\We7CMS_Codeplex\We7.CMS.Web\install/SQL\core\data.xml执行完毕！共执行语句76条，成功76，失败0 。
+

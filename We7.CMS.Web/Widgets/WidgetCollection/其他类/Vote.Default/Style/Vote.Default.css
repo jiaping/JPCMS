@@ -1,0 +1,111 @@
+﻿/*************************************************************
+ * Command:Start
+ * Control:Vote.Default
+ * Style:Vote_Default
+ * Desc::
+ * Quot:
+*************************************************************/
+.Vote_Default .vote h3
+{
+    height: 32px;
+    line-height: 32px;
+    background: url(../images/back1.gif) no-repeat;
+    font-size: 12px;
+    color: #000;
+    padding-left: 28px;
+    font-size: 12px;
+}
+.Vote_Default .vote_content li.vote_check
+{
+    position: relative;
+}
+.Vote_Default .vote_content li.vote_check input
+{
+    width: 66px;
+    height: 22px;
+    background: url(../images/back.gif) no-repeat -72px -38px;
+    overflow: hidden;
+    border: none;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    cursor: pointer;
+}
+.Vote_Default .vote_content li.vote_button_line
+{
+    padding: 10px 20px;
+}
+.Vote_Default .vote_content .vote_button
+{
+    width: 66px;
+    height: 22px;
+    background: url(../images/back.gif) no-repeat -143px -38px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+.Vote_Default .vote_content .voteshow_button
+{
+    background: url(../images/back.gif) no-repeat -215px -38px;
+    width: 66px;
+    height: 22px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+/************网站调查*************/
+.Vote_Default .vote_content, .statistics_content
+{
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.Vote_Default .vote_content h4
+{
+    font-size: 12px;
+    font-weight: normal;
+    color: #4093cb;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.Vote_Default .vote_content ul
+{
+    padding-left: 10px;
+}
+.Vote_Default .vote_content li
+{
+    height: 22px;
+    line-height: 22px;
+}
+.Vote_Default .vote_content li input
+{
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.Vote_Default .vote_content li.vote_check
+{
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+.Vote_Default .vote_content li.vote_check input
+{
+    background: url(../images/back.gif) no-repeat -143px -38px;
+}
+.Vote_Default .vote_content li.vote_check input#ShowVote
+{
+    left: 106px;
+    background: url(../images/back.gif) no-repeat -215px -38px;
+}
+/*************************************************************
+ * Command:End
+ * Control:Vote.Default
+ * Style:Vote_Default
+ * Desc::
+ * Quot:
+*************************************************************/

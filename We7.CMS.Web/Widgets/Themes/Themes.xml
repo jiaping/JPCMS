@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <item name="theme" img="/Widgets/Themes/theme/face.jpg" label="theme" /><!--主题1-->
+  <item name="theme2" img="/Widgets/Themes/theme2/face.jpg" label="theme2" /><!--主题2-->
+</Root>
