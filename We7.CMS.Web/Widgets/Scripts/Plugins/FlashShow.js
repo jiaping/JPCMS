@@ -33,7 +33,7 @@
             var focusviewer = "";
             focusviewer += '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="' + defaults.focus_width + '" height="' + defaults.swf_height + '">';
             focusviewer += '<param name="allowScriptAccess" value="sameDomain" />';
-            focusviewer += '<param name="movie" value="' + defaults.focusviewerPath + '" />';
+            focusviewer += '<param name="movie" value="/Widgets/WidgetCollection/网站页头/Header.SingleFlash/Images/Logo.swf" />';
             focusviewer += '<param name="quality" value="high" />';
             focusviewer += '<param name="bgcolor" value="#F0F0F0">';
             focusviewer += '<param name="menu" value="false">';

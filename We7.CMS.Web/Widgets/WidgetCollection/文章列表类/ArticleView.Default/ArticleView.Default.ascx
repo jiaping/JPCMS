@@ -18,7 +18,7 @@
             <!--网站内容开始-->
             <div id="fontzoom" class="article_content_list">
                 <div id="articleContnet">
-                   aaa <%=ThisArticle.Content %>aaa
+                    <%=ThisArticle.Content %>
                 </div>
                 <br>
                 <div class="page_css">

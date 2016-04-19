@@ -22,7 +22,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{4BD0FFFA-0F7
 		Solution Items\DLL\msado15.dll = Solution Items\DLL\msado15.dll
 		Solution Items\DLL\msjro.dll = Solution Items\DLL\msjro.dll
 		..\..\主线版codeplex\We7CMS_Codeplex\Solution Items\DLL\MySql.Data.dll = ..\..\主线版codeplex\We7CMS_Codeplex\Solution Items\DLL\MySql.Data.dll
-		Solution Items\DLL\Newtonsoft.Json.dll = Solution Items\DLL\Newtonsoft.Json.dll
 		Solution Items\DLL\NVelocity.dll = Solution Items\DLL\NVelocity.dll
 		Solution Items\DLL\OpenFlashChart.dll = Solution Items\DLL\OpenFlashChart.dll
 		Solution Items\DLL\OpenPOP.dll = Solution Items\DLL\OpenPOP.dll

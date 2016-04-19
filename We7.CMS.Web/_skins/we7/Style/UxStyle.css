@@ -203,105 +203,110 @@
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
+
 /************网站菜单*************/
 .ChannelMenu_TopMenu{
-	height:64px;background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_bg.jpg);
+    height:64px;background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_bg.jpg);width:100px;
 }
 .ChannelMenu_TopMenu .menu {
-	height:64px; width:960px; margin:0 auto;
+    height:64px; width:960px; margin:0 auto;
 }
 .ChannelMenu_TopMenu #menubox {
-	height:32px;
-	font-size:14px; padding-top:4px;
+    height:32px;
+    font-size:14px; padding-top:4px;
 }
 .ChannelMenu_TopMenu #menubox li {
-	float:left;
-	font-weight:bold;
-	color:#000;
-	background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.gif) no-repeat right top;
-	padding:0px 10px;
-	text-align:center;
-	margin-right:7px;
-	padding-left:0px;
-	cursor: pointer;
-	height:32px;
-	line-height:32px;
-	_background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.gif) no-repeat right -1px;
+    float:left;
+    font-weight:bold;
+    color:#000;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.gif) no-repeat right top;
+    padding:0px 10px;
+    text-align:center;
+    margin-right:7px;
+    padding-left:0px;
+    cursor: pointer;
+    height:32px;
+    line-height:32px;
+    _background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.gif) no-repeat right -1px;
 }
 
 .ChannelMenu_TopMenu #menubox li a {
-	color:#000;
-	cursor: pointer;
+    color:#000;
+    cursor: pointer;
 
-	display:inline-block;
+    display:inline-block;
 }
 .ChannelMenu_TopMenu #menubox li a:hover {
-	color:#cc0000;
+    color:#cc0000;
 }
 .ChannelMenu_TopMenu #menubox li a span {
 
-	padding-left:10px;
+    padding-left:10px;
 
 }
 .ChannelMenu_TopMenu #menubox li a em {
-	padding-right:10px;
+    padding-right:10px;
 }
 .ChannelMenu_TopMenu #menubox ul {
-	padding-left:15px;
-	height:32px;
+    padding-left:15px;
+    height:32px;
 }
 .ChannelMenu_TopMenu #menubox li.current {
-	color:#333;
+    color:#333;
 }
 .ChannelMenu_TopMenu #menubox li.current a {
-	color:#fff;
-	background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.jpg) no-repeat center top;
-	display:inline-block;
-	text-align:center;
+    color:#fff;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.jpg) no-repeat center top;
+    display:inline-block;
+    text-align:center;
 }
 .ChannelMenu_TopMenu #menubox li.current span, #menubox li.current span em {
-	
-	height:32px;
-	line-height:32px;
+    display:inline-block;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_li_left.gif) no-repeat left 4px;
+    height:32px;
+    line-height:32px;
 
 
 }
 .ChannelMenu_TopMenu #menubox li.current a:hover {
-	color:#fff;
+    color:#fff;
 }
 .ChannelMenu_TopMenu #menubox li.current span em {
-	background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_li_right.gif) no-repeat right 4px;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_li_right.gif) no-repeat right 4px;
 }
 .ChannelMenu_TopMenu .sub_menu {
-	clear:both;
-	height:31px;
-	
+    clear:both;
+    height:31px;
+    
 }
 .ChannelMenu_TopMenu .sub_center {
-	padding-left:20px;
-	color:#fff;
+    padding-left:20px;
+    color:#fff;
 }
 .ChannelMenu_TopMenu .sub_center span {
-	float:right;
-	padding-right:10px;
+    float:right;
+    padding-right:10px;
 }
 .ChannelMenu_TopMenu .sub_center ul {padding-top:3px;}
 .ChannelMenu_TopMenu .sub_center li {
-	float:left;
-	height:28px;
-	line-height:28px;
+    float:left;
+    height:28px;
+    line-height:28px;
 }
 .ChannelMenu_TopMenu .sub_center li a {
-	color:#000;
-	margin:0px 7px;
-	padding-left:8px;
-	background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/icon.gif) no-repeat left center;
+    color:#000;
+    margin:0px 7px;
+    padding-left:8px;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/icon.gif) no-repeat left center;
 }
 .ChannelMenu_TopMenu .sub_center li a.current {color:#fff;padding:5px;background:#1b71a4;}
 .ChannelMenu_TopMenu .sub_center li a.current:hover {color:#ffff00;text-decoration:underline;}
 .ChannelMenu_TopMenu .sub_center li a:hover {
-	color:#cc0000;
+    color:#cc0000;
 }
+
+
+
 
 /*************************************************************
  * Command:End
@@ -536,6 +541,7 @@
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
+
 .ArticleList_Default .area {
 	width:360px;
 	margin-top:10px;
@@ -612,6 +618,8 @@ position:absolute;
 	border:1px solid #cfd8df;
 }
  
+
+
 /*************************************************************
  * Command:End
  * Control:ArticleList.Default
@@ -1431,6 +1439,7 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
+
 /*******网站底部定义开始*******/
 .Footer_Default #footer {
 	height:115px;
@@ -1693,6 +1702,7 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
+
 .ChannelMenu_CurrentLocation .sitepath{
 	height:32px;
 	line-height:32px;
@@ -1732,8 +1742,8 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
+
 /**************文章正文开始*****************/
-.ArticleView_Default{margin-top:-10px; margin-left:9px;}
 .ArticleView_Default .article_line
 {
     height: 4px;
@@ -1918,9 +1928,6 @@ position:absolute;
     color: #cc0000;
 }
 
-
-
-
 /*************************************************************
  * Command:End
  * Control:ArticleView.Default
@@ -1937,6 +1944,7 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
+
 /******栏目分类**********/
 .Sidebar_ChannelNav .sidebar
 {
@@ -2627,6 +2635,7 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
+
 /*****************************************************************
  * 下拉横向菜单控件风格
  * 名称：横向菜单
@@ -2635,41 +2644,59 @@ position:absolute;
 {
     z-index: 100;
     position: relative;
-    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.DropDown/Images/menu_bg.jpg) repeat scroll 0 0 transparent;
-    height: 64px;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.DropDown/Images/nav_bg2.gif) repeat scroll 0 0 transparent;
+    height: 73px;
 }
 
 .ChannelMenu_DropDown #nav ul
 {
     margin: 0px;
     padding: 0px;
-    text-decoration: none; height:32px;
+    text-decoration: none; 
 }
 .ChannelMenu_DropDown #nav #product
 {
     margin: 0px;
     padding: 0px;
-    text-decoration: none; height:32px; color:#FFF; font-weight:bold;
+    text-decoration: none; color:#FFF; font-weight:bold; display:block;
 }
-.ChannelMenu_DropDown #nav #product a:hover
+.ChannelMenu_DropDown #nav .active{background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.DropDown/Images/navnbg1.gif) no-repeat; width:97px; height:53px; color:#fff; display:block;}
+.ChannelMenu_DropDown .nav_on a:hover
 {
     margin: 0px;
     padding: 0px;
-    text-decoration: none; height:32px; color:#000; font-weight:bold;
+    text-decoration: none; 
+	color:#000; font-weight:bold;
+	background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.DropDown/Images/navnbg1.gif) no-repeat; width:97px; height:53px; 
+}
+.ChannelMenu_DropDown .nav a:hover
+{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none; 
+	color:#000; font-weight:bold;
+	background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.DropDown/Images/navnbg1.gif) no-repeat; width:97px; height:53px; 
 }
 .ChannelMenu_DropDown #nav li
 {
     float: left;
-    margin: 0px; line-height:32px;
+    margin: 0px; 
     cursor: pointer;
-    list-style: none; padding-left:5px;  width:80px; margin-top:8px; text-align:center;
-	background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.DropDown/Images/7.gif) no-repeat;
+    list-style: none; padding-left:5px;  width:97px;  text-align:center;
+}
+.ChannelMenu_DropDown #nav ul li span
+{
+   line-height:35px;
+}
+.ChannelMenu_DropDown #nav ul li img
+{
+   line-height:35px; margin-top:10px;
 }
 .ChannelMenu_DropDown #nav .sonall
 {
     z-index: 200;
     position: absolute;
-    top: 32px;
+    top: 38px;
     padding-right: 12px;
 }
 .ChannelMenu_DropDown .son0
@@ -2727,6 +2754,7 @@ position:absolute;
     margin-left: -420px;
     width: 580px;
 }
+
 
 /*************************************************************
  * Command:End
@@ -3686,64 +3714,6 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
-/******栏目分类**********/
-.Sidebar_daohang{    
-	width: 229px;
-    border:1px solid #CCC;
-}
-.Sidebar_daohang .sidebar
-{
-    float: right;
-
-}
-
-.Sidebar_daohang .subnav li
-{
-    margin-top: 6px;
-}
-.Sidebar_daohang .subnav li a
-{
-    height: 26px;
-    line-height: 26px;
-    background:url(/Widgets/WidgetCollection/导航类/Sidebar.ChannelNav/Images/bg.gif) no-repeat;
-    width: 165px;
-    display: inline-block;
-    padding-left: 33px;
-    color: #333;
-}
-.Sidebar_daohang .subnav li a:hover, .subnav li.class_on a
-{
-    background:url(/Widgets/WidgetCollection/导航类/Sidebar.ChannelNav/Images/bg_hover.gif) no-repeat;
-    color: #ae541f;
-}
-
-.Sidebar_daohang .subnav h3
-{
-    height:30px;
-    line-height: 30px;
-    background:url(/Widgets/WidgetCollection/导航类/Sidebar.ChannelNav/Images/daohang_1.jpg) no-repeat left top;
-    font-size:14px;
-    color: #F00;
-	font-weight:bold;
-	width:195px;
-	margin:2px;
-    padding-left: 28px;
-    font-size: 12px;
-}
-.Sidebar_daohang .subnav ul
-{
-    padding: 4px 8px 10px 12px;
-}
-
-.Sidebar_daohang .underline
-{
-    height: 6px;
-    line-height: 6px;
-    font-size: 0px;
-    background:url(/Widgets/WidgetCollection/导航类/Sidebar.ChannelNav/Images/back.gif) no-repeat -141px -66px;
-}
-
-
 
 /*************************************************************
  * Command:End
@@ -3761,64 +3731,6 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
-.Recommadn{
-        width: 229px;
-    border:1px solid #CCC;
-    margin-top:10px;
-}
-.Recommadn .month_tip h3
-{
-    height:30px;
-    line-height: 30px;
-    background:url(/Widgets/WidgetCollection/文章列表类/Recommand.Newest/Images/daohang_1.jpg) no-repeat left top;
-    font-size:14px;
-    color: #F00;
-    font-weight:bold;
-    width:195px;
-    margin:2px;
-    padding-left: 28px;
-    font-size: 12px;
-}
-.Recommadn .month_up ul, .month_tip ul
-{
-    padding: 4px 8px 0px 12px;
-}
-.Recommadn .underline
-{
-    height: 6px;
-    line-height: 6px;
-    font-size: 0px;
-    background:url(/Widgets/WidgetCollection/文章列表类/Recommand.Newest/Images/back.gif) no-repeat -141px -66px;
-}
-.Recommadn .month_tip li
-{
-    height: 24px;
-    line-height: 24px;
-    padding-left: 10px;
-    background:url(/Widgets/WidgetCollection/文章列表类/Recommand.Newest/Images/icon1.gif) no-repeat left center;
-}
-.Recommadn .month_up li a
-{
-    color: #313534;
-}
-.Recommadn .month_tip li a:hover, .month_up li a:hover
-{
-    color: #cc0000;
-}
-.Recommadn .month_tip ul
-{
-    background:url(/Widgets/WidgetCollection/文章列表类/Recommand.Newest/Images/back.gif) no-repeat -975px -250px;
-}
-.Recommadn .month_tip li
-{
-    padding-left: 15px;
-    background: none;
-    height: 25px;
-    line-height: 25px;
-}
-
-
-
 
 /*************************************************************
  * Command:End
@@ -3836,125 +3748,6 @@ position:absolute;
  * Desc:目前没有
  * Quot:we7
 *************************************************************/
-.Pagg_List{
-        width: 708px;
-    border:1px solid #CCC;
-	margin-left:9px;
-}
-.Pagg_List .article_list
-{
-}
-
-.Pagg_List .article_list h3{
-    background:url(/Widgets/WidgetCollection/文章列表类/PagedArticleList.Default/Images/page_1.jpg) no-repeat;
-    height: 30px;
-    line-height: 30px; color:#F00;
-    font-size:14px;
-    font-weight:bold;
-    padding-left: 28px;
-}
-.Pagg_List .article_list h3 span
-{
-    background:url(/Widgets/WidgetCollection/文章列表类/PagedArticleList.Default/Images/sidebar.gif) no-repeat left top;
-    display: inline-block;
-    padding-left: 37px;
-}
-.Pagg_List .article_list h3 em
-{
-    background:url(/Widgets/WidgetCollection/文章列表类/PagedArticleList.Default/Images/sidebar.gif) no-repeat right -33px;
-    padding-right: 37px;
-    font-size: 12px;
-    color: #fff;
-    display: inline-block;
-}
-.Pagg_List .article_list h3 em a
-{
-    color: #ffff00;
-}
-.Pagg_List .article_list h3 em a:hover
-{
-    color: #fff;
-}
-.Pagg_List .article_list ul
-{
-    padding:10px;
-}
-.Pagg_List .article_list li
-{
-    height: 30px;
-    line-height: 30px;
-    font-size: 14px;
-    color: #666;
-    background:url(/Widgets/WidgetCollection/文章列表类/PagedArticleList.Default/Images/line.gif) repeat-x left bottom;
-}
-.Pagg_List .article_list li span.datetime
-{
-    float: right;
-    padding-right: 5px;
-}
-.Pagg_List .article_list li a
-{
-    color: #333;
-    padding-left: 20px;
-	float:left;
-    background:url(/Widgets/WidgetCollection/文章列表类/PagedArticleList.Default/Images/icon4.gif) no-repeat left -29px;
-}
-.Pagg_List .article_list li a:hover {
-    background:url(/Widgets/WidgetCollection/文章列表类/PagedArticleList.Default/Images/icon4.gif) no-repeat scroll left 1px transparent;
-    color: #AE541F;
-	float:left;
-}
-.Pagg_List .underline_left
-{
-    height: 7px;
-    line-height: 7px;
-    font-size: 0px;
-    background:url(/Widgets/WidgetCollection/文章列表类/PagedArticleList.Default/Images/back.gif) no-repeat left -269px;
-}
-.Pagg_List .clear
-{
-    clear: both;
-}
-.Pagg_List .clear:after
-{
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-.Pagg_List .page_css, .class_page
-{
-    text-align: center;
-    padding: 5px 0;
-}
-.Pagg_List .page_css a, .class_page a
-{
-    display: inline-block;
-    border: 1px solid #a8c1ce;
-    padding: 3px 8px;
-    color: #4a89a9;
-    line-height: 100%;
-}
-.Pagg_List .page_css a:hover, .class_page a:hover
-{
-    color: #fff;
-    border: 1px solid #4081A1;
-    background: #62A1DF;
-}
-.Pagg_List .page_css b a, .class_page b a
-{
-    color: #fff;
-    border: 1px solid #4081A1;
-    background: #62A1DF;
-}
-.Pagg_List .page_line
-{
-    border-left: 1px solid #DDDDDD;
-    border-right: 1px solid #DDDDDD;
-}
-
-
 
 /*************************************************************
  * Command:End
@@ -4796,6 +4589,579 @@ position:absolute;
  * Command:End
  * Control:FlashShow.Default
  * Style:FlashShow_Default
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+
+/*************************************************************
+ * Command:Start
+ * Control:ArticleList.Default
+ * Style:null
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+.null .area {
+	width:360px;
+	margin-top:10px;
+}
+.null .area h3 {
+	height:30px;
+	line-height:30px;
+	background:url(/Widgets/WidgetCollection/文章列表类/ArticleList.Default/Images/back1.gif) no-repeat;
+	font-size:12px;
+	color:#fff;
+	position:relative; text-indent:20px;
+}
+/*******标题自适应***********/
+.null .area h3 span {
+	background:url(/Widgets/WidgetCollection/文章列表类/ArticleList.Default/Images/sidebar.gif) no-repeat left top;
+	display:inline-block;
+	padding-left:35px;
+}
+.null .area h3 em {
+	background:url(/Widgets/WidgetCollection/文章列表类/ArticleList.Default/Images/sidebar.gif) no-repeat right -33px;
+	padding-right:35px;
+	color:#fff;
+	display:inline-block;
+}
+.null .area h3 em a {
+	color:#fff;
+}
+.null .area h3 em a:hover {
+	color:#ffff00;
+}
+
+.null .area h3 img {
+	position:absolute;
+	top:10px;
+	left:320px;
+}
+.null .area ul {
+	border-left:1px solid #e1e1e1;
+	border-right:1px solid #e1e1e1;
+        border-bottom:1px solid #e1e1e1;
+	background:url(/Widgets/WidgetCollection/文章列表类/ArticleList.Default/Images/area_back.gif) repeat-x left top;
+	padding:10px;
+	height:auto!important;
+	min-height:187px;
+	height:187px;
+	padding-bottom:0px;
+}
+.null .area li {
+	height:23px;
+	line-height:23px;
+	padding-left:8px;
+	background:url(/Widgets/WidgetCollection/文章列表类/ArticleList.Default/Images/icon3.gif) no-repeat left center;
+	color:#999999;
+	position:relative;
+}
+.null .area li a {
+	color:#313534;
+}
+.null .area li a:hover {
+	color:#cc0000;
+}
+.null .area li span.datetime{
+position:absolute;
+	top:0px;
+	right:5px;
+}
+.null .underline_area {
+	height:5px;
+	line-height:5px;
+	font-size:0px;
+	background:url(/Widgets/WidgetCollection/文章列表类/ArticleList.Default/Images/back.gif) no-repeat -141px -79px;
+}
+.null .area_ad img {
+	border:1px solid #cfd8df;
+}
+ 
+
+/*************************************************************
+ * Command:End
+ * Control:ArticleList.Default
+ * Style:null
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+
+/*************************************************************
+ * Command:Start
+ * Control:ChannelMenu.TopMenu
+ * Style:aaanewStyle
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+/************网站菜单*************/
+.aaanewStyle{
+    height:64px;background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_bg.jpg);width:100px;
+}
+.aaanewStyle .menu {
+    height:64px; width:960px; margin:0 auto;
+}
+.aaanewStyle #menubox {
+    height:32px;
+    font-size:14px; padding-top:4px;
+}
+.aaanewStyle #menubox li {
+    float:left;
+    font-weight:bold;
+    color:#000;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.gif) no-repeat right top;
+    padding:0px 10px;
+    text-align:center;
+    margin-right:7px;
+    padding-left:0px;
+    cursor: pointer;
+    height:32px;
+    line-height:32px;
+    _background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.gif) no-repeat right -1px;
+}
+
+.aaanewStyle #menubox li a {
+    color:#000;
+    cursor: pointer;
+
+    display:inline-block;
+}
+.aaanewStyle #menubox li a:hover {
+    color:#cc0000;
+}
+.aaanewStyle #menubox li a span {
+
+    padding-left:10px;
+
+}
+.aaanewStyle #menubox li a em {
+    padding-right:10px;
+}
+.aaanewStyle #menubox ul {
+    padding-left:15px;
+    height:32px;
+}
+.aaanewStyle #menubox li.current {
+    color:#333;
+}
+.aaanewStyle #menubox li.current a {
+    color:#fff;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_line.jpg) no-repeat center top;
+    display:inline-block;
+    text-align:center;
+}
+.aaanewStyle #menubox li.current span, #menubox li.current span em {
+    display:inline-block;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_li_left.gif) no-repeat left 4px;
+    height:32px;
+    line-height:32px;
+
+
+}
+.aaanewStyle #menubox li.current a:hover {
+    color:#fff;
+}
+.aaanewStyle #menubox li.current span em {
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/menu_li_right.gif) no-repeat right 4px;
+}
+.aaanewStyle .sub_menu {
+    clear:both;
+    height:31px;
+    
+}
+.aaanewStyle .sub_center {
+    padding-left:20px;
+    color:#fff;
+}
+.aaanewStyle .sub_center span {
+    float:right;
+    padding-right:10px;
+}
+.aaanewStyle .sub_center ul {padding-top:3px;}
+.aaanewStyle .sub_center li {
+    float:left;
+    height:28px;
+    line-height:28px;
+}
+.aaanewStyle .sub_center li a {
+    color:#000;
+    margin:0px 7px;
+    padding-left:8px;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/Images/icon.gif) no-repeat left center;
+}
+.aaanewStyle .sub_center li a.current {color:#fff;padding:5px;background:#1b71a4;}
+.aaanewStyle .sub_center li a.current:hover {color:#ffff00;text-decoration:underline;}
+.aaanewStyle .sub_center li a:hover {
+    color:#cc0000;
+}
+
+
+
+
+
+/*************************************************************
+ * Command:End
+ * Control:ChannelMenu.TopMenu
+ * Style:aaanewStyle
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+
+/*************************************************************
+ * Command:Start
+ * Control:ChannelMenu.TopMenu.OneGrade
+ * Style:ChannelMenu_TopMenu_OneGrade
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+/************网站菜单*************/
+.ChannelMenu_TopMenu_OneGrade{
+    height:36px;background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/Images/menu_bg.jpg);width:100px;
+}
+.ChannelMenu_TopMenu_OneGrade .menu {
+    height:36px; width:960px; margin:0 auto;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox {
+    height:32px;
+    font-size:14px; padding-top:4px;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li {
+    float:left;
+    font-weight:bold;
+    color:#000;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/Images/menu_line.gif) no-repeat right top;
+    padding:0px 10px;
+    text-align:center;
+    margin-right:7px;
+    padding-left:0px;
+    cursor: pointer;
+    height:32px;
+    line-height:32px;
+    _background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/Images/menu_line.gif) no-repeat right -1px;
+}
+
+.ChannelMenu_TopMenu_OneGrade #menubox li a {
+    color:#000;
+    cursor: pointer;
+
+    display:inline-block;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li a:hover {
+    color:#cc0000;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li a span {
+
+    padding-left:10px;
+
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li a em {
+    padding-right:10px;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox ul {
+    padding-left:15px;
+    height:32px;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li.current {
+    color:#333;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li.current a {
+    color:#fff;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/Images/menu_line.jpg) no-repeat center top;
+    display:inline-block;
+    text-align:center;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li.current span, #menubox li.current span em {
+    display:inline-block;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/Images/menu_li_left.gif) no-repeat left 4px;
+    height:32px;
+    line-height:32px;
+
+
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li.current a:hover {
+    color:#fff;
+}
+.ChannelMenu_TopMenu_OneGrade #menubox li.current span em {
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/Images/menu_li_right.gif) no-repeat right 4px;
+}
+.ChannelMenu_TopMenu_OneGrade .sub_menu {
+    clear:both;
+    height:31px;
+    
+}
+.ChannelMenu_TopMenu_OneGrade .sub_center {
+    padding-left:20px;
+    color:#fff;
+}
+.ChannelMenu_TopMenu_OneGrade .sub_center span {
+    float:right;
+    padding-right:10px;
+}
+.ChannelMenu_TopMenu_OneGrade .sub_center ul {padding-top:3px;}
+.ChannelMenu_TopMenu_OneGrade .sub_center li {
+    float:left;
+    height:28px;
+    line-height:28px;
+}
+.ChannelMenu_TopMenu_OneGrade .sub_center li a {
+    color:#000;
+    margin:0px 7px;
+    padding-left:8px;
+    background:url(/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/Images/icon.gif) no-repeat left center;
+}
+.ChannelMenu_TopMenu_OneGrade .sub_center li a.current {color:#fff;padding:5px;background:#1b71a4;}
+.ChannelMenu_TopMenu_OneGrade .sub_center li a.current:hover {color:#ffff00;text-decoration:underline;}
+.ChannelMenu_TopMenu_OneGrade .sub_center li a:hover {
+    color:#cc0000;
+}
+
+
+
+
+/*************************************************************
+ * Command:End
+ * Control:ChannelMenu.TopMenu.OneGrade
+ * Style:ChannelMenu_TopMenu_OneGrade
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+
+/*************************************************************
+ * Command:Start
+ * Control:Header.SingleFlash
+ * Style:Header_SingleFlash
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+/*************************************************************
+ * Command:End
+ * Control:Header.SingleFlash
+ * Style:Header_SingleFlash
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+
+/*************************************************************
+ * Command:Start
+ * Control:Header.LogoFlashWithTopItem
+ * Style:Header_LogoFlashWithTopItem
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+
+
+.Header_LogoFlashWithTopItem #logo
+{
+    float: left;
+    width: 255px;
+    padding-top: 28px;
+}
+
+.Header_LogoFlashWithTopItem .web_tool
+{
+    float: right;
+    width: 679px;
+    text-align: right;
+    height: 42px;
+    position: relative;
+}
+.Header_LogoFlashWithTopItem .web_tip
+{
+    height: 31px;
+    line-height: 31px;
+}
+.Header_LogoFlashWithTopItem .web_tip a
+{
+    height: 21px;
+    line-height: 21px;
+    display: inline-block;
+    padding: 0px 5px 0px 17px;
+    color: #000000;
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/tool.gif) no-repeat left 3px;
+}
+.Header_LogoFlashWithTopItem .web_tip a.wap
+{
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/tool.gif) no-repeat 1px -16px;
+    padding-left: 17px;
+    padding-right: 7px;
+}
+.Header_LogoFlashWithTopItem .web_tip a.fav
+{
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/tool.gif) no-repeat left -36px;
+    padding-right: 0px;
+}
+.Header_LogoFlashWithTopItem .web_tip a.home
+{
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/tool.gif) no-repeat left -55px;
+    padding-right: 0px;
+    padding-left: 19px;
+}
+.Header_LogoFlashWithTopItem .web_tip a.rss
+{
+    padding-right: 5px;
+}
+.Header_LogoFlashWithTopItem .web_tip a.ask
+{
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/tool.gif) no-repeat left -84px;
+}
+.Header_LogoFlashWithTopItem .web_tip a.searches
+{
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/tool.gif) no-repeat left -111px;
+}
+.Header_LogoFlashWithTopItem .web_tip a.reg
+{
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/tool.gif) no-repeat left -137px;
+    padding-right: 8px;
+}
+.Header_LogoFlashWithTopItem .web_tip a:hover
+{
+    color: #cc0000;
+}
+/*************全模型搜索*************/
+.Header_LogoFlashWithTopItem .top
+{
+    height: 42px;
+}
+.Header_LogoFlashWithTopItem .full_model_search
+{
+    height: 26px;
+    width: 527px;
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/back.gif) left -778px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 4px;
+}
+.Header_LogoFlashWithTopItem .full_model_search input.model_search
+{
+    width: 253px;
+    padding-top: 3px;
+    height: 15px;
+    border: none;
+    background: none;
+    padding-left: 55px;
+    color: #c0c0c0;
+}
+.Header_LogoFlashWithTopItem .full_model_search input.model_search_click
+{
+    width: 67px;
+    padding-top: 3px;
+    height: 22px;
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/back.gif) no-repeat -735px -118px;
+    border: none;
+    margin-left: 7px;
+}
+.Header_LogoFlashWithTopItem .full_model_search a
+{
+    color: #333;
+    padding: 0px 3px;
+}
+.Header_LogoFlashWithTopItem .full_model_search a.model_search_all
+{
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/model_search.gif) no-repeat left center;
+    height: 30px;
+}
+.Header_LogoFlashWithTopItem .full_model_search a:hover
+{
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+/*************下拉选项***********/
+.Header_LogoFlashWithTopItem .model_list, .model_project
+{
+    width: 50px;
+    position: absolute;
+    top: 85px;
+    left: 152px;
+    z-index: 3;
+}
+.Header_LogoFlashWithTopItem .model_project
+{
+    z-index: 9;
+    top: 68px;
+    left: 147px;
+}
+.Header_LogoFlashWithTopItem .model_project a
+{
+    color: #8a8d8c;
+    padding-right: 15px;
+    background:url(/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Images/ico_down.gif) no-repeat right center;
+}
+.Header_LogoFlashWithTopItem .model_project a:hover
+{
+    color: #cc0000;
+}
+.Header_LogoFlashWithTopItem .model_list
+{
+    border: 1px solid #ccc;
+    background: #fff;
+    border-top: none;
+    display: none;
+}
+.Header_LogoFlashWithTopItem .model_list ul
+{
+    height: auto !important;
+    min-height: 80px;
+    height: 80px;
+    padding: 0px;
+}
+.Header_LogoFlashWithTopItem .model_list li
+{
+    text-align: left;
+}
+.Header_LogoFlashWithTopItem .model_list li a
+{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    color: #333;
+    padding-left: 5px;
+}
+.Header_LogoFlashWithTopItem .model_list li a:hover
+{
+    color: #000;
+    background: #f0f0f0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+/*************************************************************
+ * Command:End
+ * Control:Header.LogoFlashWithTopItem
+ * Style:Header_LogoFlashWithTopItem
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+
+/*************************************************************
+ * Command:Start
+ * Control:Foot.Text
+ * Style:Foot_Text
+ * Desc:目前没有
+ * Quot:we7
+*************************************************************/
+
+/*************************************************************
+ * Command:End
+ * Control:Foot.Text
+ * Style:Foot_Text
  * Desc:目前没有
  * Quot:we7
 *************************************************************/

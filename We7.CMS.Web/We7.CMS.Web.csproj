@@ -221,6 +221,16 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\back2.gif" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\icon4.gif" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\line.gif" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\page_1.jpg" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\page_2.jpg" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\sidebar.gif" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\PagedPictureshizi.ascx" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Style\PagedPictureshizi.css" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\vm\pager.vm" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Errors.aspx.cs">
@@ -255,6 +265,9 @@
     <Compile Include="Widgets\WidgetCollection\图文类\PagedPictureArticleList.Default\PagedArticleList.Default.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\PagedPictureshizi.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Widgets\WidgetCollection\图文类\PictureArticleList.Default\PictureArticleList.Default.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -262,6 +275,9 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Widgets\WidgetCollection\导航类\ChannelMenu.DropDown\ChannelMenu.DropDown.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\ChannelMenu.TopMenu.OneGrade.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu\ChannelMenu.TopMenu.cs">
@@ -291,6 +307,9 @@
     <Compile Include="Widgets\WidgetCollection\文章列表类\ArticleList.SideList\ArticleList.SideList.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Widgets\WidgetCollection\文章列表类\ArticleList\ArticleList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Widgets\WidgetCollection\文章列表类\ArticleSingle.Default\ArticleSingle.Default.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -309,10 +328,17 @@
     <Compile Include="Widgets\WidgetCollection\文章列表类\PagedArticleList.Default\PagedArticleList.Default.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\PagedJingpingke.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Widgets\WidgetCollection\文章列表类\Recommand.Newest\Recommand.Newest.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Header.LogoFlashWithTopItem.cs" />
     <Compile Include="Widgets\WidgetCollection\网站页头\Header.LogoQueryQuick\Header.LogoQueryQuick.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetCollection\网站页头\Header.SingleFlash\Header.SingleFlash.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Widgets\WidgetCollection\网站页脚\Footer.Default\Footer.Default.cs">
@@ -681,6 +707,17 @@
     <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.DropDown\images\menu_li_right.gif" />
     <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.DropDown\Js\jquery.downhx.js" />
     <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.DropDown\Style\ChannelMenu.DropDown.css" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\ChannelMenu.TopMenu.OneGrade.ascx" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\bg.jpg" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\daxue_1.jpg" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\daxue_2.jpg" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\icon.gif" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\menu_bg.jpg" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\menu_line.gif" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\menu_line.jpg" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\menu_li_left.gif" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Images\menu_li_right.gif" />
+    <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu.OneGrade\Style\ChannelMenu.TopMenu.OneGrade.css" />
     <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu\ChannelMenu.TopMenu.ascx" />
     <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu\Images\icon.gif" />
     <Content Include="Widgets\WidgetCollection\导航类\ChannelMenu.TopMenu\Images\menu_bg.jpg" />
@@ -733,6 +770,17 @@
     <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList.SideList\Images\back1.gif" />
     <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList.SideList\Images\icon1.gif" />
     <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList.SideList\Style\ArticleList.SideList.css" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\ArticleList.ascx" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\area_back.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\back1.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\daxue_2.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\daxue_3.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\daxue_4.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\daxue_5.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\icon3.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Images\sidebar.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\ArticleList\Style\ArticleList.css" />
     <Content Include="Widgets\WidgetCollection\文章列表类\ArticleSingle.Default\ArticleSingle.Default.ascx" />
     <Content Include="Widgets\WidgetCollection\文章列表类\ArticleSingle.Default\Style\ArticleSingle.Default.css" />
     <Content Include="Widgets\WidgetCollection\文章列表类\ArticleView.Default\ArticleView.Default.ascx" />
@@ -768,20 +816,83 @@
     <Content Include="Widgets\WidgetCollection\文章列表类\PagedArticleList.Default\Images\sidebar.gif" />
     <Content Include="Widgets\WidgetCollection\文章列表类\PagedArticleList.Default\PagedArticleList.Default.ascx" />
     <Content Include="Widgets\WidgetCollection\文章列表类\PagedArticleList.Default\Style\PagedArticleList.Default.css" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\area_back.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\back1.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\back2.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\daxue_2.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\daxue_3.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\daxue_4.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\daxue_5.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\icon3.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\icon4.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\line.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\page_1.jpg" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Images\sidebar.gif" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\PagedJingpingke.ascx" />
+    <Content Include="Widgets\WidgetCollection\文章列表类\PagedJingpingke\Style\PagedJingpingke.css" />
     <Content Include="Widgets\WidgetCollection\文章列表类\Recommand.Newest\Images\back.gif" />
     <Content Include="Widgets\WidgetCollection\文章列表类\Recommand.Newest\Images\back1.gif" />
     <Content Include="Widgets\WidgetCollection\文章列表类\Recommand.Newest\Images\icon1.gif" />
     <Content Include="Widgets\WidgetCollection\文章列表类\Recommand.Newest\Recommand.Newest.ascx" />
     <Content Include="Widgets\WidgetCollection\文章列表类\Recommand.Newest\Style\Recommand.Newest.css" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Header.LogoFlashWithTopItem.ascx" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Images\ico_down.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Images\Logo.swf" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Images\model_search.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Images\tool.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoFlashWithTopItem\Style\Header.LogoFlashWithTopItem.css" />
     <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoQueryQuick\Header.LogoQueryQuick.ascx" />
     <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoQueryQuick\Images\back.gif" />
     <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoQueryQuick\Images\ico_down.gif" />
     <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoQueryQuick\Images\model_search.gif" />
     <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoQueryQuick\Images\tool.gif" />
     <Content Include="Widgets\WidgetCollection\网站页头\Header.LogoQueryQuick\Style\Header.LogoQueryQuick.css" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.SingleFlash\Header.SingleFlash.ascx" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.SingleFlash\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.SingleFlash\Images\ico_down.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.SingleFlash\Images\model_search.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.SingleFlash\Images\tool.gif" />
+    <Content Include="Widgets\WidgetCollection\网站页头\Header.SingleFlash\Style\Header.SingleFlash.css" />
     <Content Include="Widgets\WidgetCollection\网站页脚\Footer.Default\Footer.Default.ascx" />
     <Content Include="Widgets\WidgetCollection\网站页脚\Footer.Default\Style\Footer.Default.css" />
     <Content Include="Widgets\WidgetCollection\评论类\CommentsList.Common\CommentsList.Common.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\banner\banner.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Changyongfuwu.Default.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\area_back.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\back1.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\background2.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\daxue_2.jpg" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\daxue_3.jpg" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\icon3.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Images\sidebar.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Changyongfuwu.Default\Style\Changyongfuwu.Default.css" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Daohang.Default.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\area_back.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\back1.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\background2.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\daxue_2.jpg" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\daxue_3.jpg" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\daxue_4.jpg" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\icon3.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Images\sidebar.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Daohang.Default\Style\Daohang.Default.css" />
+    <Content Include="Widgets\WidgetCollection\静态类\Foot.Text\Foot.Text.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\guanggaowei\guanggaowei.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\honglatiao\honglatiao.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\honglatiao\images\page_1.jpg" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Images\area_back.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Images\back.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Images\back1.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Images\background2.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Images\daxue_2.jpg" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Images\icon3.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Images\sidebar.gif" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Jigoushizhi.Default.ascx" />
+    <Content Include="Widgets\WidgetCollection\静态类\Jigoushizhi.Default\Style\Jigoushizhi.Default.css" />
     <Content Include="Widgets\WidgetCollection\静态类\Register.Title\images\back2.gif" />
     <Content Include="Widgets\WidgetCollection\静态类\Register.Title\Register.Title.ascx" />
     <Content Include="Widgets\WidgetCollection\静态类\Register.Title\Style\Register.Title.css" />
@@ -865,6 +976,8 @@
     <Content Include="Widgets\WidgetCollection\其他类\User.Register\Validate.ashx" />
     <None Include="Widgets\WidgetCollection\图文类\PagedPictureArticleList.Default\Images\Thumbs.db" />
     <None Include="Widgets\WidgetCollection\图文类\PagedPictureArticleList.Default\vm\pager.vm" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\Images\Thumbs.db" />
+    <Content Include="Widgets\WidgetCollection\图文类\PagedPictureshizi\vm\pager.vm" />
     <None Include="Widgets\WidgetCollection\文章列表类\PagedArticleList.Default\vm\pager.vm" />
   </ItemGroup>
   <ItemGroup>

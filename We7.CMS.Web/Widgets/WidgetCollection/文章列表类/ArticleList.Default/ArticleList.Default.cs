@@ -167,7 +167,7 @@ namespace We7.CMS.Web.Widgets
                     Order[] os = IsShow ? new Order[] { new Order("IsShow", OrderMode.Desc), new Order("Updated", OrderMode.Desc) } : new Order[] { new Order("Updated", OrderMode.Desc) };
                     articles = Assistant.List<Article>(c, os, 0, PageSize, new string[]
                                                                            {
-                                                                            "ID", "Title", "ChannelFullUrl", "Created", "SN"
+                                                                            "ID", "Title", "ChannelFullUrl", "Created", "SN","Updated"
                                                                            });
 
                 }

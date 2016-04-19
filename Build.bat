@@ -1,12 +1,12 @@
-@ECHO OFF
+@ECHO 
 SET CONFIG=Debug
 
 SET CONFIG=Release
 SET ZIP="c:\Program Files\7-zip\7z.exe"
-SET BUILDER="C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe"
+SET BUILDER="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
 
 @ECHO Build projects...
-%BUILDER% "We7 CMS.sln" /Build %CONFIG% > build.log.txt
+%BUILDER% "JPCMS.sln" /Build %CONFIG% > build.log.txt
 
 @ECHO Building We7.CMS.Install.zip...
 RD ..\Deploy\Temp /S /Q

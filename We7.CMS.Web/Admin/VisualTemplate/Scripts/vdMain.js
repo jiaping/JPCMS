@@ -110,7 +110,7 @@ function LoadWidgetList() {
         dataType: "json",
         data: {},
         contentType: "application/json; charset=utf-8",
-        success: function (json) {
+        success: function (json, textstate, XmlHttpRequest) {
             try {
                 json = eval('(' + json.d + ')');
                 if (json.Success)  {

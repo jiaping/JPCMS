@@ -35,6 +35,7 @@
       <type name="PictureArticleList.Default" label="推荐图片文章列表" file="/Widgets/WidgetCollection/图文类/PictureArticleList.Default/PictureArticleList.Default.ascx" control="PictureArticleList_Default" />
     </widget>
     <widget name="DHL634717265673075578" label="导航类" description="导航类" icon="导航类" defaulttype="ChannelMenu.CurrentLocation">
+      <type name="ChannelMenu.TopMenu" label="网站顶部菜单显示一级" file="/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu.OneGrade/ChannelMenu.TopMenu.OneGrade.ascx" control="ChannelMenu_TopMenu_OneGrade" />
       <type name="ChannelMenu.CurrentLocation" label="当前位置" file="/Widgets/WidgetCollection/导航类/ChannelMenu.CurrLocation/ChannelMenu.CurrentLocation.ascx" control="ChannelMenu_CurrentLocation" />
       <type name="ChannelMenu.DropDown" label="网站浮动菜单显示两级" file="/Widgets/WidgetCollection/导航类/ChannelMenu.DropDown/ChannelMenu.DropDown.ascx" control="ChannelMenu_DropDown" />
       <type name="ChannelMenu.TopMenu" label="网站顶部菜单显示两级" file="/Widgets/WidgetCollection/导航类/ChannelMenu.TopMenu/ChannelMenu.TopMenu.ascx" control="ChannelMenu_TopMenu" />
@@ -59,6 +60,8 @@
       <type name="ArticleSingle.Default" label="单篇文章详细控件" file="/Widgets/WidgetCollection/文章列表类/ArticleSingle.Default/ArticleSingle.Default.ascx" control="ArticleSingle_Default" />
     </widget>
     <widget name="WZYT634717265785131987" label="网站页头" description="网站页头" icon="网站页头" defaulttype="Header.LogoQueryQuick">
+      <type name="Header.LogoFlashWithTopItem" label="LogoFlash带顶信息项页头" file="/Widgets/WidgetCollection/网站页头/Header.LogoFlashWithTopItem/Header.LogoFlashWithTopItem.ascx" control="Header_LogoFlashWithTopItem" />
+      <type name="Header.SingleFlash" label="单个Flash页头" file="/Widgets/WidgetCollection/网站页头/Header.SingleFlash/Header.SingleFlash.ascx" control="Header_SingleFlash" />
       <type name="Header.LogoQueryQuick" label="带Logo带搜索带快捷导航(头)" file="/Widgets/WidgetCollection/网站页头/Header.LogoQueryQuick/Header.LogoQueryQuick.ascx" control="Header_LogoQueryQuick" />
     </widget>
     <widget name="WZYJ634717265790142273" label="网站页脚" description="网站页脚" icon="网站页脚" defaulttype="Footer.Default">
@@ -72,6 +75,9 @@
       <type name="Search.Title" label="搜索结果页" file="/Widgets/WidgetCollection/静态类/Search_Title/Search.Title.ascx" control="Search_Title" />
       <type name="Search_Title" label="搜索结果页" file="/Widgets/WidgetCollection/静态类/Search_Title/Search_Title.ascx" control="Search_Title" />
       <type name="top" label="设为首页" file="/Widgets/WidgetCollection/静态类/top/top.ascx" control="top" />
+      
+      <type name="Banner" label="标语" file="/Widgets/WidgetCollection/静态类/Banner/Banner.ascx" control="Banner" />
+      <type name="Foot.Text" label="页脚文本" file="/Widgets/WidgetCollection/静态类/Foot.Text/Foot.Text.ascx" control="Foot_Text" />
     </widget>
   </group>
 </widgets>

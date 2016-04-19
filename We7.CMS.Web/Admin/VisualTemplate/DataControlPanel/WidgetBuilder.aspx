@@ -183,7 +183,7 @@
                 data: '{"controlPath":"' + ctr + '"}',
                 type: "POST",
                 success: function (_result_) {
-                    var array = eval(_result_);
+                    var array = eval('('+_result_+')').d;
                     for (var i in array) {
                         if (array[i].replace(".","_") == '<%=CssClass %>')
                             $("#CssClass").append("<option value='" + array[i] + "' selected='selected'>" + array[i] + "</option>");

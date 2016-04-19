@@ -160,11 +160,14 @@ function articleOptionCheck(userCtrlID) {
     }
 
     var p = /^[0-9]*$/;
-    if (!p.exec(document.getElementById(userCtrlID + "_IndexTextBox").value)) {
-        alert("排序号必须为数字！");
-        document.getElementById(userCtrlID + "_IndexTextBox").focus();
-        return false;
-    }
+    var temp=p.exec(document.getElementById(userCtrlID + "_IndexTextBox").value);
+    var cc=!temp;
+    //if (cc) {
+    //    alert("排序号必须为数字！");
+    //    document.getElementById(userCtrlID + "_IndexTextBox").focus();
+    //    return false;
+    //}
+    return true;
 }
 
 //栏目属性 输入验证

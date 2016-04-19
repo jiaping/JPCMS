@@ -181,7 +181,10 @@ namespace We7.CMS.Web.Widgets
                                                                                            "ChannelFullUrl",
                                                                                            "Created",
                                                                                            "Content",
-                                                                                           "SN"
+                                                                                           "SN",
+                                                                                           "Author",
+                                                                                           "Source",
+                                                                                           "Clicks"
                                                                                        });
                         if (aList != null && aList.Count > 0)
                         {

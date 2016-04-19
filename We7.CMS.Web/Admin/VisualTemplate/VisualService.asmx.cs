@@ -52,7 +52,7 @@ namespace We7.CMS.Web.Admin.VisualTemplate
         /// </summary>
         /// <returns></returns>
         [WebMethod]
-        //[ScriptMethod(ResponseFormat =ResponseFormat.Json)]
+        [ScriptMethod(ResponseFormat =ResponseFormat.Json)]
         #region string GetSystemWidgets()
         public string GetSystemWidgets()
         {
